@@ -1,0 +1,32 @@
+.color-font{
+    display:inline-table;
+    cursor:pointer;
+    margin-left:30px;
+    margin-top:30px;
+    width:160px;
+    height:60px;
+    background: #f0eeea;  
+}
+.index_container{
+    margin-top: 10px;
+    /*overflow: auto;*/
+    padding-top:50px;
+}
+.table_overflow{
+    /*overflow: scroll;*/
+    text-align: center;
+    
+}
+.index-header{
+    display:flex;
+}
+.z-depth {
+    box-shadow: 
+        0 6px 10px 0 rgba(0,0,0,0.10), 
+        0 1px 18px 0 rgba(0,0,0,0.12), 
+        0 3px 5px -1px rgba(0,0,0,0.3);
+}
+.btn-focus:hover {
+    background: #e2e1de;
+    
+}
