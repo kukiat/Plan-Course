@@ -6,7 +6,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div className="index_container z-depth-3 border-rad-4">
-                <div className="table_overflow">
+                <div className="layout">
                     <RowSubject/>
                     <RowSubject/>
                     <RowSubject/>

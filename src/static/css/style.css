@@ -1,8 +1,8 @@
 .color-font{
     display:inline-table;
     cursor:pointer;
-    margin-left:30px;
-    margin-top:30px;
+    margin-left:35px;
+    margin-top:35px;
     width:160px;
     height:60px;
     background: #f0eeea;  
@@ -12,9 +12,18 @@
     /*overflow: auto;*/
     padding-top:50px;
 }
-.table_overflow{
+.index-header{
+    color:green;
+}
+.layout{
     /*overflow: scroll;*/
     text-align: center;
+    background-color: orange;
+    width:1600px;
+    height:700px;
+    margin-left:50px;
+    margin-right:30px;
+    border-radius: 20px;
     
 }
 .index-header{
