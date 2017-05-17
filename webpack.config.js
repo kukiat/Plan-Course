@@ -7,7 +7,7 @@ module.exports = {
   entry: path.join(__dirname, 'src', 'index.js'),
   devServer: {
     inline: true,
-    port: 3333,
+    port: 3310,
     contentBase: "src/static/",
     historyApiFallback: {
       index: '/index-static.html'

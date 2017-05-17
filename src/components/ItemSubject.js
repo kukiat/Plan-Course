@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 
 class ItemSubject extends Component {
-    constructor(){
-       super()
-    }
+    
     render() {
+        const { subject } = this.props
         return (
-            <div className="color-font z-depth btn-focus">
-                <div></div>
-                <div>database</div>
+            <div className="index-card z-depth btn-focus">
+                <div className="detail-card">
+                    <div>{ subject.subject_id }</div>
+                    <div>{ subject.name }</div>
+                </div>
             </div>
-                
-            
         )
     }
 }

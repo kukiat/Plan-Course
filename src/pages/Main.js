@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
 import Header from './Header'
-import Dashboard from './Dashboard'
+import Dashboard from '../container/Dashboard'
 
 class Main extends Component{
   

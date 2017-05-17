@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
-import Main from './components/Main'
-import NotFoundPage from './components/NotFoundPage'
+import Main from './pages/Main'
+import NotFoundPage from './pages/NotFoundPage'
 
 const routes = (
   <Route>
