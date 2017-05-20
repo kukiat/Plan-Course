@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ItemSubject from '../components/ItemSubject'
 import Semester from '../components/Semester';
 import { course,check }  from '../data/course'
+import Arrow from '../components/Arrow'
 
 class Dashboard extends Component {
     constructor(){
@@ -21,14 +22,20 @@ class Dashboard extends Component {
 
     selectSubject(subjectId){
        const { courses } = this.state
-       const selectAll = Object.assign({},...(check.filter((data) => data.subject_id === subjectId))).child
+       const selectAll = Object.assign({}, ...(check.filter((data) => data.subject_id === subjectId))).child
        for(let i in courses){
             for(let j=0;j<courses[i].length;j++){
                 courses[i][j].status = false
             }
         }
        if(selectAll == undefined){
-            return
+            for(let i in courses){
+                for(let j=0;j<courses[i].length;j++){
+                    if(courses[i][j].subject_id == subjectId){
+                        courses[i][j].status = true
+                    }
+                }
+            }
        }else{
             for(let i in courses){
                 for(let j=0;j<courses[i].length;j++){
@@ -45,13 +52,11 @@ class Dashboard extends Component {
                         }
                     }
                 }
-            }
-            this.setState({
-                courses:courses
-                
-            })
-            
+            }   
        }
+       this.setState({
+            courses:courses
+        })
        
     }
 
