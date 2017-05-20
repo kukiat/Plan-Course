@@ -1,13 +1,4 @@
-.index-card{
-    cursor:pointer;
-    margin-left:50px;
-    margin-top:80px;
-    width:140px;
-    height:65px;
-    background: orange; 
-    border-radius: 10px; 
-    border-style: solid;
-}
+
 .index-card-change{
     cursor:pointer;
     margin-left:50px;
@@ -52,7 +43,6 @@ body{
     width:1750px;
     height:800px;
     margin-left:50px;
-    margin-right:30px;
     border-radius: 20px;
     
 }
@@ -69,14 +59,7 @@ body{
     background: #F4A25F;
     
 }
-.index-arrow-disable{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6.5px 0 6.5px 13px;
-    border-color: transparent transparent transparent #eba821;
-    margin:-28px 0 0px 36px;
-}
+
 .index-arrow-enable{
     width: 0;
     height: 0;
@@ -85,9 +68,40 @@ body{
     border-color: transparent transparent transparent red;
     margin:-28px 0 0px 36px;
 }
+
+
+
+.index-card{
+    cursor:pointer;
+    width:140px;
+    height:65px;
+    background: orange; 
+    border-radius: 10px; 
+    border-style: solid;
+}
+.index-arrow-disable{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 13px;
+    border-color: transparent transparent transparent orange;
+}
 .line{
-    margin-top:-2px;
-    margin-left:-49px;
-    width:38px;
+    width:10px;
     height:3px;
+    margin-top:5px;
+}
+.container-card{
+    
+}
+.container-arrow{
+    margin-top:15px;
+}
+.container-main{
+    margin-top: 42px;
+    margin-left: 25px;
+    display: flex;
+}
+.index-arrow{
+    display: flex;
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ItemSubject from '../components/ItemSubject'
 import Semester from '../components/Semester';
 import { course,check }  from '../data/course'
-import Arrow from '../components/Arrow'
 
 class Dashboard extends Component {
     constructor(){
