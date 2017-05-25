@@ -11,7 +11,6 @@ class Arrow extends Component{
             <div className="container-arrow">
                 { subjectId == "040613405" && <ArrowOne status={ status }/> }
                 { subjectId == "040613325" && <ArrowTwo status={ status }/> }
-                { subjectId == "040613325" && <ArrowThree status={ status }/> }
             </div>
         )
     }
