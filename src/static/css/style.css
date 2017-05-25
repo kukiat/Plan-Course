@@ -1,8 +1,13 @@
-
+.index-card{
+    cursor:pointer;
+    width:140px;
+    height:65px;
+    background: orange; 
+    border-radius: 10px; 
+    border-style: solid;
+}
 .index-card-change{
     cursor:pointer;
-    margin-left:50px;
-    margin-top:80px;
     width:140px;
     height:65px;
     background: red; 
@@ -59,49 +64,65 @@ body{
     background: #F4A25F;
     
 }
-
-.index-arrow-enable{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6.5px 0 6.5px 13px;
-    border-color: transparent transparent transparent red;
-    margin:-28px 0 0px 36px;
-}
-
-
-
-.index-card{
-    cursor:pointer;
-    width:140px;
-    height:65px;
-    background: orange; 
-    border-radius: 10px; 
-    border-style: solid;
-}
-.index-arrow-disable{
+.arrow-disable{
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 6.5px 0 6.5px 13px;
     border-color: transparent transparent transparent orange;
+    margin-left:30px;
 }
-.line{
-    width:10px;
-    height:3px;
-    margin-top:5px;
+.arrow-enable{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 13px;
+    border-color: transparent transparent transparent red;
+    margin-left:30px;
 }
 .container-card{
     
 }
 .container-arrow{
-    margin-top:15px;
+    margin-top:6px;
+    position: absolute;
 }
 .container-main{
     margin-top: 42px;
-    margin-left: 25px;
+    margin-left: 40px;
     display: flex;
 }
+
+
+
 .index-arrow{
+    margin-left:-45px; 
     display: flex;
+    margin-top:4px;
 }
+.static-layout{
+    position: absolute;
+    margin-top:5px;
+}
+
+.line{
+    width:24px;
+    margin-left:6px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line2{
+    width:16px;
+    margin-left:14px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line3{
+    height:267px;
+    width:2px;
+    margin-left:12px;
+    margin-top:5px;
+    position: absolute;
+} 

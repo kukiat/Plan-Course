@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ItemSubject from '../components/ItemSubject'
 import Semester from '../components/Semester';
-import { course,check }  from '../data/course'
+import { course,datacheck } from '../data/course'
 
 class Dashboard extends Component {
     constructor(){
@@ -20,43 +20,37 @@ class Dashboard extends Component {
     }
 
     selectSubject(subjectId){
-       const { courses } = this.state
-       const selectAll = Object.assign({}, ...(check.filter((data) => data.subject_id === subjectId))).child
-       for(let i in courses){
-            for(let j=0;j<courses[i].length;j++){
-                courses[i][j].status = false
-            }
-        }
-       if(selectAll == undefined){
-            for(let i in courses){
-                for(let j=0;j<courses[i].length;j++){
-                    if(courses[i][j].subject_id == subjectId){
-                        courses[i][j].status = true
+        const { courses } = this.state
+        courses.map((semester) => semester.map((subject) => subject.status = false))
+        let obj = []
+        const arrData = this.findId(subjectId)
+        arrData.map((id) => courses.map((semester) => semester.map((subject) => {
+                    if(subject.subject_id == id) {
+                        subject.status = true
                     }
-                }
-            }
-       }else{
-            for(let i in courses){
-                for(let j=0;j<courses[i].length;j++){
-                    if(courses[i][j].subject_id == subjectId){
-                        courses[i][j].status = true
-                    }
-                }
-            }
-            for(let k in selectAll){
-                for(let i in courses){
-                    for(let j=0;j<courses[i].length;j++){
-                        if(courses[i][j].subject_id == selectAll[k]){
-                            courses[i][j].status = true
-                        }
-                    }
-                }
-            }   
-       }
-       this.setState({
+                })
+            )
+        )
+        this.setState({
             courses:courses
         })
-       
+    }
+
+    findId(subjectId){
+        let allObj = []
+        allObj.push(subjectId)
+        let arrayData = [subjectId]
+        while(true) {
+            const findData = arrayData.map((id) => datacheck.filter((subject) => subject.subject_id === id))
+            const childData = findData.map((arr) => arr.map((subject) => subject.child))
+            const data = Object.assign(...childData)
+            if(data.length > 0) {
+                arrayData = Object.assign(...data)
+                arrayData.map((id) => allObj.push(id))
+            }else {
+                return allObj
+            }
+        }
     }
 
     render() {
