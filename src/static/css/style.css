@@ -104,7 +104,20 @@ body{
     position: absolute;
     margin-top:5px;
 }
-
+.curve1{
+    width:10px; height:9px;  
+    border:solid 2px red;
+    border-color:red transparent transparent transparent;
+    border-radius: 50%/8px 8px 0 0; 
+    position: absolute;
+}
+.curve2{
+    width:10px; height:9px;  
+    border:solid 2px orange;
+    border-color:orange transparent transparent transparent;
+    border-radius: 50%/9px 9px 0 0;
+    position: absolute;
+}
 .line{
     width:24px;
     margin-left:6px;
@@ -120,9 +133,331 @@ body{
     position: absolute;
 }
 .line3{
-    height:267px;
+    height:70px;
     width:2px;
     margin-left:12px;
     margin-top:5px;
     position: absolute;
 } 
+.line4{
+    width:175px;
+    margin-left:-11.55em;
+    height:2px;
+    margin-top:73px;
+    position: absolute;
+}
+.line4-2{
+    width:353px;
+    margin-left:-37.3em;
+    height:2px;
+    margin-top:73px;
+    position: absolute;
+}
+.line5{
+    height:35px;
+    width:2px;
+    margin-left:-37.4em;
+    margin-top:5.2em;
+    position: absolute;
+} 
+.line6{
+    width:13px;
+    margin-left:-38.25em;
+    height:2px;
+    margin-top:7.6em;
+    position: absolute;
+}
+.line7{
+    width:14px;
+    margin-left:19px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line8{
+    height:18.5em;
+    width:2px;
+    margin-left:18px;
+    margin-top:5px;
+    position: absolute;
+} 
+.line9{
+    width:13em;
+    margin-left:-11.6em;
+    height:2px;
+    margin-top:18.7em;
+    position: absolute;
+}
+.line10{
+    height:3em;
+    width:2px;
+    margin-left:-11.6em;
+    margin-top:15.8em;
+    position: absolute;
+}
+.line11{
+    width:1em;
+    margin-left:-12.45em;
+    height:2px;
+    margin-top:15.7em;
+    position: absolute;
+}
+.line12{
+    width:10px;
+    margin-left:24px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line13{
+    height:5em;
+    width:2px;
+    margin-left:24px;
+    margin-top:5px;
+    position: absolute;
+}
+.line14{
+    width:7px;
+    margin-left:1.3em;
+    height:2px;
+    margin-top:5.2em;
+    position: absolute;
+}
+.line15{
+    height:8.8em;
+    width:2px;
+    margin-left:18px;
+    margin-top:5.2em;
+    position: absolute;
+}
+.line16{
+    width:51.43em;
+    margin-left:-50em;
+    height:2px;
+    margin-top:14em;
+    position: absolute;
+}
+.line17{
+    height:19.15em;
+    width:2px;
+    margin-left:-50.7em;
+    margin-top:-5em;
+    position: absolute;
+}
+.line18{
+    width:7px;
+    margin-left:-51.1em;
+    height:2px;
+    margin-top:-5em;
+    position: absolute;
+}
+.line19{
+    height:11.8em;
+    width:2px;
+    margin-left:1.7em;
+    margin-top:0.35em;
+    position: absolute;
+}
+.line20{
+    width:52em;
+    margin-left:-50.2em;
+    height:2px;
+    margin-top:12em;
+    position: absolute;
+}
+.line21{
+    height:32.15em;
+    width:2px;
+    margin-left:-50.3em;
+    margin-top:-20em;
+    position: absolute;
+}
+.line22{
+    width:12.5px;
+    margin-left:-51.1em;
+    height:2px;
+    margin-top:-20em;
+    position: absolute;
+}
+.line23{
+    height:5.6em;
+    width:2px;
+    margin-left:1em;
+    margin-top:0.5em;
+    position: absolute;
+}
+.line24{
+    width:12.7em;
+    margin-left:-11.7em;
+    height:2px;
+    margin-top:5.95em;
+    position: absolute;
+}
+.line25{
+    height:9.7em;
+    width:2px;
+    margin-left:-11.7em;
+    margin-top:5.95em;
+    position: absolute;
+}
+.line26{
+    width:0.87em;
+    margin-left:-12.45em;
+    height:2px;
+    margin-top:15.65em;
+    position: absolute;
+}
+.line27{
+    width:12.5px;
+    margin-left:17.5px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line28{
+    height:6.5em;
+    width:2px;
+    margin-left:1.25em;
+    margin-top:-6em;
+    position: absolute;
+}
+.line29{
+    width:12.5px;
+    margin-left:5.5px;
+    height:2px;
+    margin-top:-6em;
+    position: absolute;
+}
+.line30{
+    height:4em;
+    width:2px;
+    margin-left:1.25em;
+    margin-top:0.5em;
+    position: absolute;
+}
+.line31{
+    width:13em;
+    margin-left:-11.6em;
+    height:2px;
+    margin-top:4.5em;
+    position: absolute;
+}
+.line32{
+    height:2em;
+    width:2px;
+    margin-left:-11.6em;
+    margin-top:2.5em;
+    position: absolute;
+}
+.line33{
+    height:2px;
+    width:13px;
+    margin-left:-12.5em;
+    margin-top:2.5em;
+    position: absolute;
+}
+.line34{
+    width:10px;
+    margin-left:22px;
+    height:2px;
+    margin-top:5px;
+    position: absolute;
+}
+.line35{
+    height:20em;
+    width:2px;
+    margin-left:1.5em;
+    margin-top:0.35em;
+    position: absolute;
+}
+.line36{
+    width:25.5em;
+    margin-left:-24em;
+    height:2px;
+    margin-top:20.2em;
+    position: absolute;
+}
+.line37{
+    height:19em;
+    width:2px;
+    margin-left:-24em;
+    margin-top:1.2em;
+    position: absolute;
+}
+.line38{
+    height:2px;
+    width:5px;
+    margin-left:-24.2em;
+    margin-top:1.2em;
+    position: absolute;
+}
+.line39{
+    height:2px;
+    width:0.7em;
+    margin-left:-25.4em;
+    margin-top:1.2em;
+    position: absolute;
+}
+.line40{
+    height:2px;
+    width:0.4em;
+    margin-left:1.8em;
+    margin-top:0.4em;
+    position: absolute;
+}
+.line41{
+    height:6.55em;
+    width:2px;
+    margin-left:1.15em;
+    margin-top:-6em;
+    position: absolute;
+}
+.line42{
+    height:2px;
+    width:0.8em;
+    margin-left:0.4em;
+    margin-top:-6em;
+    position: absolute;
+}
+.line43{
+    height:2px;
+    width:1em;
+    margin-left:1.3em;
+    margin-top:0.4em;
+    position: absolute;
+}
+.line44{
+    height:2px;
+    width:1.5em;
+    margin-left:0.8em;
+    margin-top:0.4em;
+    position: absolute;
+}
+.line45{
+    height:12.8em;
+    width:2px;
+    margin-left:0.65em;
+    margin-top:-12.25em;
+    position: absolute;
+}
+.line46{
+    height:2px;
+    width:0.3em;
+    margin-left:0.4em;
+    margin-top:-12.25em;
+    position: absolute;
+}
+.line47{
+    height:2px;
+    width:1em;
+    margin-left:1.5em;
+    margin-top:0.4em;
+    position: absolute;
+}
+.line48{
+    height:2px;
+    width:0.5em;
+    margin-left:0.4em;
+    margin-top:0.4em;
+    position: absolute;
+}

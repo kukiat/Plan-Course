@@ -28,9 +28,15 @@ class Dashboard extends Component {
                     if(subject.subject_id == id) {
                         subject.status = true
                     }
+                    if(subject.subject_id == "040613XXX" || subject.subject_id == "040603XXX" || subject.subject_id == "080203XXX" || subject.subject_id == "XXXXXXXXX") {
+                        subject.status = false
+                    }
                 })
             )
         )
+        if(subjectId == "040613XXX" || subjectId == "040603XXX" || subjectId == "080203XXX" || subjectId == "XXXXXXXXX") {
+            alert("Coming Soon")
+        }
         this.setState({
             courses:courses
         })

@@ -5,10 +5,10 @@ const course = [
         {"subject_id":"040203101","name":"MATHEMATICS I","weight":"3(3-0)"},
         {"subject_id":"040613101","name":"FUNDAMENTAL OF CS AND PROF ISSUES","weight":"3(2-1)"},
         {"subject_id":"040613102","name":"COMPUTER PROGRAMMING I","weight":"2(1-2)"},
-        {"subject_id":"040613XXX","name":"SCI AND MATHS ELECTIVE COURSE","weight":"3(3-0)"},
+        {"subject_id":"040613XXX","name":"SCI & MATH ELECTIVE COURSE","weight":"3(3-0)"},
         {"subject_id":"040613181","name":"DIGITAL CIRCUIT DESIGN","weight":"3(3-0)"},
         {"subject_id":"080103001","name":"ENGLISH I","weight":"3(3-0)"},
-        {"subject_id":"080203XXX","name":"ELECTIVE COURSE","weight":"3(3-0)"},
+        {"subject_id":"080203XXX","name":"SOCIAL SCIENCES ELECTIVE COURSE","weight":"3(3-0)"},
         
     ],
     // semester2 success

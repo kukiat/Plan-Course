@@ -20,9 +20,6 @@ class ItemSubject extends Component {
                 </div>
                 
             </div>
-                
-                
-            
         )
     }
 }
