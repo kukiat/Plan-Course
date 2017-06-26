@@ -6,7 +6,6 @@ class Arrow extends Component{
     render() {
         const { status} = this.props
         const subjectId = this.props.subject.subject_id
-        const id =5
         return (
             <div className="container-arrow">
                 { subjectId == "040613405" && <ArrowOne status={ status }/> }

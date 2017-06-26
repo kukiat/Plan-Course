@@ -23,18 +23,18 @@ class Dashboard extends Component {
         const { courses } = this.state
         courses.map((semester) => semester.map((subject) => subject.status = false))
         let obj = []
-        const arrData = this.findId(subjectId)
+        const arrData = this.findChildSubject(subjectId)
         arrData.map((id) => courses.map((semester) => semester.map((subject) => {
                     if(subject.subject_id == id) {
                         subject.status = true
                     }
-                    if(subject.subject_id == "040613XXX" || subject.subject_id == "040603XXX" || subject.subject_id == "080203XXX" || subject.subject_id == "XXXXXXXXX") {
+                    if(subject.subject_id == "040613XXX" || subject.subject_id == "040603XXX" || subject.subject_id == "080203XXX" || subject.subject_id == "XXXXXXXXX" || subject.subject_id == "04XXXXXXX") {
                         subject.status = false
                     }
                 })
             )
         )
-        if(subjectId == "040613XXX" || subjectId == "040603XXX" || subjectId == "080203XXX" || subjectId == "XXXXXXXXX") {
+        if(subjectId == "040613XXX" || subjectId == "040603XXX" || subjectId == "080203XXX" || subjectId == "XXXXXXXXX" || subjectId == "04XXXXXXX") {
             alert("Coming Soon")
         }
         this.setState({
@@ -42,7 +42,7 @@ class Dashboard extends Component {
         })
     }
 
-    findId(subjectId){
+    findChildSubject(subjectId){
         let allObj = []
         allObj.push(subjectId)
         let arrayData = [subjectId]

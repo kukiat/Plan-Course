@@ -16,7 +16,7 @@ const course = [
         {"subject_id":"040203102","name":"MATHEMATICS II","weight":"3(3-0)"},
         {"subject_id":"040613121","name":"COMPUTER PROGRAMMING II","weight":"3(3-0)"},
         {"subject_id":"040613191","name":"DISCRETE MATHEMATICS FOR COM","weight":"3(3-0)"},
-        {"subject_id":"040433002","name":"FOOD IN DAILY LIFE","weight":"3(3-0)"},
+        {"subject_id":"04XXXXXXX","name":"SCI & MATH ELECTIVE COURSE","weight":"3(3-0)"},
         {"subject_id":"040613182","name":"DIGITAL AND LOGIC SYSTEMS","weight":"3(3-0)"},
         {"subject_id":"080103002","name":"ENGLISH II","weight":"3(3-0)"},
     ],
@@ -26,7 +26,7 @@ const course = [
         {"subject_id":"040503011","name":"STATISTICS FOR ENG AND SCI","weight":"3(3-0)"},
         {"subject_id":"040613202","name":"DATA STRICTURES AND ALGORITHM","weight":"3(3-0)"},
         {"subject_id":"040613222","name":"OBJECT-ORIENTED PROGRAMMING","weight":"3(3-0)"},
-        {"subject_id":"04XXXXXXX","name":"SCIENCES & MATH ELECTIVE COURSE","weight":"3(3-0)"},
+        {"subject_id":"04XXXXXXX","name":"SCI & MATH ELECTIVE COURSE","weight":"3(3-0)"},
         {"subject_id":"080103XXX","name":"LANGUAGE ELECTIVE COURSE","weight":"3(3-0)"},
     ],
      // semester4 success
@@ -35,7 +35,7 @@ const course = [
         {"subject_id":"040613241","name":"SYSTEM ANALYSIS AND DESIGN","weight":"3(3-0)"},
         {"subject_id":"040613272","name":"COMPUTER ORGANIZATION AND AR","weight":"3(3-0)"},
         {"subject_id":"040613292","name":"DESIGN AND ANALYSIS OF ALGOR","weight":"3(3-0)"},
-        {"subject_id":"04XXXXXXX","name":"SCIENCES & MATH ELECTIVE COURSE","weight":"3(3-0)"},
+        {"subject_id":"04XXXXXXX","name":"SCI & MATH ELECTIVE COURSE","weight":"3(3-0)"},
         {"subject_id":"080103XXX","name":"LANGUAGE ELECTIVE COURSE","weight":"3(3-0)"},
     ],
      // semester5 success

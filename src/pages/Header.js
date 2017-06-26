@@ -5,7 +5,8 @@ class Header extends React.Component{
     render() {
         return (
             <div className="index-header">
-                <h2 className="index-header-detail">Plan-Course</h2>
+                <h2 className="index-header-detail">Study-Plan</h2>
+                <h4 className="index-header-detail">CS-KMUTNB</h4>
             </div>
         )
     }
